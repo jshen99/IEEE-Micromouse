@@ -15,10 +15,10 @@
   - White: M2
   - Blue: M1
 - Battery
-- Step up regulator
+- Step up regulator : Pololu 12V Step-Up Voltage Regulator U3V50F12
 - Chasiss
 - wheels
-- Motor Controller
+- Motor Controller: TB6612FNG Dual Motor Driver Carrier
 - Castor wheels (dependent on number of wheels)
 
  **Agenda**
@@ -28,6 +28,13 @@
 3. Start testing if the wheels move based on different distance on the distance sensors
 
 https://help.github.com/articles/basic-writing-and-formatting-syntax/#paragraphs-and-line-breaks
+
+**1/3/18**
+- Put on motors on chasiss
+- Wrote software to test the motors
+- Left motor spins fine
+- Right motor has a wiring issure with the red wire needs to be resoldered
+
 
 
 
