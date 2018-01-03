@@ -20,7 +20,7 @@
 2. Write up software to process distance sensor and encoder data sent up to the arduino
 3. Start testing if the wheels move based on different distance on the distance sensors
 
-
+https://help.github.com/articles/basic-writing-and-formatting-syntax/#paragraphs-and-line-breaks
 
 
 
