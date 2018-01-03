@@ -12,7 +12,7 @@
   - Yellow: Out B
   - Green: Out A
   - Red: VCC
-  -White: M2
+  - White: M2
   - Blue: M1
 - Battery
 - Step up regulator
