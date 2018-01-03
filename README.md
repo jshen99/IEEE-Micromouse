@@ -6,7 +6,14 @@
 - Breadboard
 - Motors (2 or 4) : Pololu #3049 Micro metal Gearmotor HPCB 12V with Extended Motor Shaft
 - Distance sensors
-- Encoders
+- Encoders :Magnetic Encoder Pair Kit for Micro Metal Gearmotors, 12 CPR, 2.7-18V (HPCB compatible)
+  - **Wiring**
+  - Black:Ground
+  - Yellow: Out B
+  - Green: Out A
+  - Red: VCC
+  -White: M2
+  - Blue: M1
 - Battery
 - Step up regulator
 - Chasiss
