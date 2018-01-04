@@ -28,6 +28,13 @@ void leftCCW(int strength){
   analogWrite(PWNB,strength);
   digitalWrite(STBY,HIGH);
  }
+ void short_Brake(){
+  digitalWrite(AIN1, HIGH);
+  digitalWrite(AIN2, HIGH);
+  digitalWrite(BIN1,HIGH);
+  digitalWrite(BIN2, HIGH);
+  digitalWrite(STBY,HIGH);
+ }
 
 
 void loop() {
