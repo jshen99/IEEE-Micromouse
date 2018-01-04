@@ -32,9 +32,9 @@ https://help.github.com/articles/basic-writing-and-formatting-syntax/#paragraphs
 **1/3/18**
 - Put on motors on chasiss
 - Wrote software to test the motors
-- Left motor spins fine
-- Right motor has a wiring issure with the red wire needs to be resoldered
-
+  - Left Motor: Works perfectly
+  - Right Motor: Red wire is not properly soldered on but works
+  
 
 
 
