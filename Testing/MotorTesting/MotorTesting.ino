@@ -1,10 +1,10 @@
-#define AIN2 13
-#define AIN1 12
-#define BIN1 8
-#define BIN2 7
+#define AIN2 2
+#define AIN1 1
+#define BIN1 0
+#define BIN2 4
 #define PWNB 9
 #define PWNA 10
-#define STBY 9
+#define STBY 3
   
 void setup() { 
   pinMode(AIN2 , OUTPUT);
