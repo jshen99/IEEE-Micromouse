@@ -2,7 +2,7 @@
 
 **Day 0: Parts needed:**
 
-- Microcontroller (Arduino Nano)
+- Microcontroller (Teensyduino)
 - Breadboard
 - Motors (2 or 4) : Pololu #3049 Micro metal Gearmotor HPCB 12V with Extended Motor Shaft
 - Distance sensors
@@ -18,7 +18,7 @@
 - Step up regulator : Pololu 12V Step-Up Voltage Regulator U3V50F12
 - Chasiss
 - wheels
-- Motor Controller: TB6612FNG Dual Motor Driver Carrier
+- Motor Controller: [TB6612FNG Dual Motor Driver Carrier](https://www.pololu.com/product/713)
 - Castor wheels (dependent on number of wheels)
 
  **Agenda**
