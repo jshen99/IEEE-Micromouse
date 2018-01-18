@@ -2,8 +2,8 @@
 #define AIN1 12
 #define BIN1 8
 #define BIN2 7
-#define PWNB 6
-#define PWNA 11
+#define PWNB 9
+#define PWNA 10
 #define STBY 9
   
 void setup() { 
