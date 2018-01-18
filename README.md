@@ -34,7 +34,11 @@ https://help.github.com/articles/basic-writing-and-formatting-syntax/#paragraphs
 - Wrote software to test the motors
   - Left Motor: Works perfectly
   - Right Motor: Red wire is not properly soldered on but works
-  
+  **1/16/18**
+  - Fixed encoder soldering and switched orientation of the wires as not to interfere with magnet and shaft
+  **1/18/18**
+  - Wired up motors and motor controller with teensyduio on breadboard
+  - updated test code with new pins
 
 
 
