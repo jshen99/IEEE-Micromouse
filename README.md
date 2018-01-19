@@ -4,9 +4,9 @@
 
 - Microcontroller (Teensyduino)
 - Breadboard
-- Motors (2 or 4) : Pololu #3049 Micro metal Gearmotor HPCB 12V with Extended Motor Shaft
+- Motors (2 or 4) : [Pololu #3049 Micro metal Gearmotor HPCB 12V with Extended Motor Shaft](https://www.pololu.com/product/3049)
 - Distance sensors
-- Encoders :Magnetic Encoder Pair Kit for Micro Metal Gearmotors, 12 CPR, 2.7-18V (HPCB compatible)
+- Encoders : [Magnetic Encoder Pair Kit for Micro Metal Gearmotors, 12 CPR, 2.7-18V (HPCB compatible)](https://www.pololu.com/product/3081)
   - **Wiring**
   - Black:Ground
   - Yellow: Out B
@@ -15,7 +15,7 @@
   - White: M2
   - Blue: M1
 - Battery
-- Step up regulator : Pololu 12V Step-Up Voltage Regulator U3V50F12
+- Step up regulator : [12V Step-Up Voltage Regulator U3V50F12](https://www.pololu.com/product/2568)
 - Chasiss
 - wheels
 - Motor Controller: [TB6612FNG Dual Motor Driver Carrier](https://www.pololu.com/product/713)
