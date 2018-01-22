@@ -2,13 +2,14 @@
 #define AIN1 1
 #define BIN1 0
 #define BIN2 4
-#define PWNB 9
-#define PWNA 10
+#define PWNB 15
+#define PWNA 16
 #define STBY 3
 
  /*A port are for left motor and B pins are for right motor*/
   
 void setup() { 
+  Serial.begin(9600);
   pinMode(AIN2 , OUTPUT);
   pinMode(AIN1, OUTPUT);
   pinMode(BIN1,OUTPUT);
@@ -47,6 +48,8 @@ void leftCCW(int strength) //method to test left motor for CCW direction
 
 
 void loop() {
-  leftCCW(15);
-  rightCCW(255);
+  Serial.println("Starting");
+  leftCCW(150);
+  rightCCW(0);
+  delay(2000);
 }
