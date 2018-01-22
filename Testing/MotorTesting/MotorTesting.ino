@@ -5,6 +5,8 @@
 #define PWNB 9
 #define PWNA 10
 #define STBY 3
+
+ /*A port are for left motor and B pins are for right motor*/
   
 void setup() { 
   pinMode(AIN2 , OUTPUT);
@@ -16,19 +18,26 @@ void setup() {
   pinMode(STBY,OUTPUT);
   
 }
-void leftCCW(int strength){
-  digitalWrite(AIN1,LOW);
+
+
+void leftCCW(int strength) //method to test left motor for CCW direction
+  {
+    digitalWrite(AIN1,LOW);
   digitalWrite(AIN2, HIGH);
   analogWrite(PWNA ,strength);
   digitalWrite(STBY,HIGH);
   }
- void rightCCW(int strength){
+  
+ void rightCCW(int strength) //method to test right motor for CCW direction
+ {            
   digitalWrite(BIN1, LOW);
   digitalWrite(BIN2, HIGH);
   analogWrite(PWNB,strength);
   digitalWrite(STBY,HIGH);
  }
- void short_Brake(){
+ 
+ void short_Brake()  //method to test short brake of both motors
+ { 
   digitalWrite(AIN1, HIGH);
   digitalWrite(AIN2, HIGH);
   digitalWrite(BIN1,HIGH);
