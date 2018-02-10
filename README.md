@@ -30,18 +30,23 @@ Voltage Rating 2.7V, 18 V
 **Teensyduino**
 
 Voltage Rating Digital Supply:  -0.3V, 3.8V
-                   Digital Input: -0.3 V, 5.5V
+
+               Digital Input: -0.3 V, 5.5V
                    
 Current Rating Digital Supply Current: 0 , 185 mA
-                   Max Current Single pin limit -25, 25 mA
+
+                       Max Current Single pin limit -25, 25 mA
    
 **Motor Controller**
+
 Voltage Rating Motor Voltage (VMOT): 4.5V, 13.5V
+
                    Logic Voltage (VCC): 2.7V, 5.5V
                    
 Current Rating Output Current: 1A Continous
 
 **Motor** 
+
 Voltage Needed 12 Volts from the step up
 
 Current Rating 100mA
