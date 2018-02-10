@@ -86,7 +86,7 @@ Draw Schematic for power delivered to each component
 
 Figure out how to use bluetooth serial module
 
-
+![alt text](C:\Users\sheno\Documents\Rutgers IEEE\Schematic.jpg)
 
 
 
