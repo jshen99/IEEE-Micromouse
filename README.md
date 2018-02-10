@@ -29,7 +29,7 @@ Voltage Rating 2.7V, 18 V
           
 **Teensyduino**
 
-Voltage Rating Digital Supply:  -0.3V, 3.8V
+Voltage Rating Digital Supply:  3.3V
 
                Digital Input: -0.3 V, 5.5V
                    
