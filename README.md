@@ -74,7 +74,12 @@ https://help.github.com/articles/basic-writing-and-formatting-syntax/#paragraphs
 - updated test code with new pins
 
 **2/10/18**
-To do:
+
+To do: 
+
+Draw Schematic for power delivered to each component
+
+Figure out how to use bluetooth serial module
 
 
 
