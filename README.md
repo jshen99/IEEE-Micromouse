@@ -51,6 +51,11 @@ Voltage Needed 12 Volts from the motor controller
 
 Current Rating 100mA
 
+**Time of Flight**
+
+Voltage needed = 5V
+Current needed = 5mA
+
                    
  **Agenda**
 
@@ -80,8 +85,5 @@ To do:
 Draw Schematic for power delivered to each component
 
 Figure out how to use bluetooth serial module
-
-
-
 
 
