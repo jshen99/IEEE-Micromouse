@@ -51,6 +51,11 @@ Voltage Needed 12 Volts from the motor controller
 
 Current Rating 100mA
 
+**Time of Flight**
+
+Voltage needed = 5V
+Current needed = 5mA
+
                    
  **Agenda**
 
