@@ -86,4 +86,4 @@ Draw Schematic for power delivered to each component
 
 Figure out how to use bluetooth serial module
 
-
+![alt text](
