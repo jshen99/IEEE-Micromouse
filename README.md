@@ -14,7 +14,7 @@
   - Red: VCC
   - White: M2
   - Blue: M1
-- Battery
+- Battery USB 2 delivers 2 Amps. USB 1 delivers 1 Amp
 - Step up regulator : [12V Step-Up Voltage Regulator U3V50F12](https://www.pololu.com/product/2568)
 - Chasiss
 - wheels
@@ -72,6 +72,9 @@ https://help.github.com/articles/basic-writing-and-formatting-syntax/#paragraphs
 **1/18/18**
 - Wired up motors and motor controller with teensyduio on breadboard
 - updated test code with new pins
+
+**2/10/18**
+To do:
 
 
 
