@@ -47,7 +47,7 @@ Current Rating Output Current: 1A Continous
 
 **Motor** 
 
-Voltage Needed 12 Volts from the step up
+Voltage Needed 12 Volts from the motor controller
 
 Current Rating 100mA
 
