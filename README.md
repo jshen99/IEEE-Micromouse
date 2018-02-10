@@ -86,4 +86,4 @@ Draw Schematic for power delivered to each component
 
 Figure out how to use bluetooth serial module
 
-![alt text](IEEE-Micromouse/Schematic.JPG)
+![alt text](https://github.com/jshen99/IEEE-Micromouse/blob/master/Schematic.JPG)
