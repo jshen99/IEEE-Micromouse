@@ -1,49 +1,69 @@
-#define AIN2 2
-#define AIN1 1
-#define BIN1 0
-#define BIN2 4
-#define PWNB 15
-#define PWNA 16
-#define STBY 3
+/* We define front back left and right from the persepective where the motor controllers are farthest away from you
+Black wheels are in the back
+White wheels are in the front*/
+
+//Motor controller Right
+#define RFAIN2 9
+#define RFAIN1 10
+#define RBBIN1 11
+#define RBBIN2 12
+#define RPWNB 19
+#define RPWNA 18
+#define RSTBY 17
+
+//Motor Controllers Left
+#define LFAIN2 2
+#define LFAIN1 1
+#define LBBIN1 0
+#define LBBIN2 4
+#define LPWNB 16
+#define LPWNA 15
+#define LSTBY 3
 
  /*A port are for left motor and B pins are for right motor*/
   
 void setup() { 
   Serial.begin(9600);
-  pinMode(AIN2 , OUTPUT);
-  pinMode(AIN1, OUTPUT);
-  pinMode(BIN1,OUTPUT);
-  pinMode(BIN2, OUTPUT);
-  pinMode(PWNB, OUTPUT);
-  pinMode(PWNA,OUTPUT);
-  pinMode(STBY,OUTPUT);
+  pinMode(RFAIN2 , OUTPUT);
+  pinMode(RFAIN1, OUTPUT);
+  pinMode(RBBIN1,OUTPUT);
+  pinMode(RBBIN2, OUTPUT);
+  pinMode(RPWNB, OUTPUT);
+  pinMode(RPWNA,OUTPUT);
+  pinMode(RSTBY,OUTPUT);
+  pinMode(LFAIN2 , OUTPUT);
+  pinMode(LFAIN1, OUTPUT);
+  pinMode(LBBIN1,OUTPUT);
+  pinMode(LBBIN2, OUTPUT);
+  pinMode(LPWNB, OUTPUT);
+  pinMode(LPWNA,OUTPUT);
+  pinMode(LSTBY,OUTPUT);
   
 }
 
-
-void leftCCW(int strength) //method to test left motor for CCW direction
+//This method only acts on the left motor controller and left motors (front and back)
+void leftCCW(int strength) //method to test left motors for CCW direction
   {
-    digitalWrite(AIN1,LOW);
-  digitalWrite(AIN2, HIGH);
-  analogWrite(PWNA ,strength);
-  digitalWrite(STBY,HIGH);
+    digitalWrite(LFAIN1,LOW);
+    digitalWrite(LFAIN2, HIGH);
+    analogWrite(LPWNA ,strength);
+    digitalWrite(LBBIN1, LOW);
+    digitalWrite(LBBIN2, HIGH);
+    digitalWrite(LPWNB,strength);  
+    digitalWrite(LSTBY,HIGH);
   }
-  
- void rightCCW(int strength) //method to test right motor for CCW direction
- {            
-  digitalWrite(BIN1, LOW);
-  digitalWrite(BIN2, HIGH);
-  analogWrite(PWNB,strength);
-  digitalWrite(STBY,HIGH);
- }
+
+ //This method only acts on the right motor controller 
+ void rightCCW(int strength) //method to test right motors for CCW direction
+ {          
+    digitalWrite(RFAIN1,LOW);
+    digitalWrite(RFAIN2, HIGH);
+    analogWrite(RPWNA ,strength);
+    digitalWrite(RBBIN1, LOW);
+    digitalWrite(RBBIN2, HIGH);
+    digitalWrite(RPWNB,strength);  
+    digitalWrite(RSTBY,HIGH);
  
- void short_Brake()  //method to test short brake of both motors
- { 
-  digitalWrite(AIN1, HIGH);
-  digitalWrite(AIN2, HIGH);
-  digitalWrite(BIN1,HIGH);
-  digitalWrite(BIN2, HIGH);
-  digitalWrite(STBY,HIGH);
  }
 
 
