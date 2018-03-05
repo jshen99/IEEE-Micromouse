@@ -1,6 +1,5 @@
 /* We define front back left and right from the persepective where the motor controllers are farthest away from you
-Black wheels are in the back
-White wheels are in the front*/
+Black wheels are in the back White wheels are in the front*/
 
 //Motor controller Right
 #define RFAIN2 9
